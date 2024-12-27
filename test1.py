@@ -79,7 +79,7 @@ def led():
             conn.close()
             print("สถานะ LED ถูกบันทึกในฐานข้อมูล")
         
-        return 'OK'
+        return 'OKey'
     except Exception as e:
         print(f"ข้อผิดพลาดการส่งข้อมูลไปยัง Arduino หรือฐานข้อมูล: {e}")
         return "ไม่สามารถสื่อสารกับอุปกรณ์ได้", 500
